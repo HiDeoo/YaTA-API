@@ -1,0 +1,43 @@
+{
+  "name": "yata-api",
+  "description": "YaTA API",
+  "author": "HiDeoo",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --max-warnings=0 --ext .ts . && cd functions && tsc --noEmit"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "2.13.0",
+    "@typescript-eslint/parser": "2.13.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "husky": ">=1",
+    "lint-staged": ">=8",
+    "prettier": "1.19.1",
+    "typescript": "3.7.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HiDeoo/YaTA-API"
+  },
+  "keywords": [
+    "yata",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/HiDeoo/YaTA-API/issues"
+  }
+}

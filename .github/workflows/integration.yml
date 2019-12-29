@@ -23,7 +23,7 @@ jobs:
       run: yarn
 
     - name: Install functions dependencies
-      run: cd functions && yarn
+      run: cd functions && yarn --ignore-engines
 
     - name: Lint code
       run: yarn run lint

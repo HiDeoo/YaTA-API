@@ -10,6 +10,12 @@
 
 This repository contains various APIs used by [YaTA](https://github.com/HiDeoo/YaTA) hosted on [Firebase](https://firebase.google.com).
 
+## Endpoints
+
+### `/emotes`
+
+Returns the emotes of a channel based on a specific emote ID. This only works for Twitch emotes. The data is cached for 30min and initially provided by [Twitch Emotes](https://twitchemotes.com/).
+
 ## License
 
 Licensed under the MIT License, Copyright © HiDeoo.

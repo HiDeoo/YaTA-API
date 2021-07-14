@@ -1,4 +1,11 @@
 <p align="center">
+  <h2 align="center">⚠️ Deprecated ⚠️</h2>
+  <h4 align="center">This repository is no longer used in <a href="https://github.com/HiDeoo/YaTA">YaTA</a> as the only endpoint was using an API which has been shutdown.</h4>
+</p>
+
+<hr />
+
+<p align="center">
   <h1 align="center">YaTA - API</h1>
 </p>
 
